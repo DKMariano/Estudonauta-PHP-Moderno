@@ -1,5 +1,3 @@
-<!-- parei na aula Manipulação de strings com PHP -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -81,3 +79,4 @@
     ?>
 </body>
 </html>
+
