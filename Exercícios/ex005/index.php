@@ -1,4 +1,3 @@
-<!-- Obtendo dados de formulários com PHP (parte 2) - @CursoemVideo de PHP - Gustavo Guanabara -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,12 +12,14 @@
     </header>
 
     <section>
-        <form action="cad.php" method="get"></form>
-            <label for="nome">Nome</label>
+        <form action="cad.php" method="get">
+            <label for="idnome">Nome</label>
             <input type="text" name="nome" id="idnome">
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome">
+
+            <label for="idsobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="idsobrenome">
             <input type="submit" value="Enviar">
+        </form>
     </section>
 </body>
 </html>
