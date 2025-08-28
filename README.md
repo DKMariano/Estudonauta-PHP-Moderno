@@ -8,14 +8,14 @@
 
 ## 📑 Sumário
 
-* [Descrição](#descrição)
-* [Objetivo](#objetivo)
-* [Conteúdo](#conteúdo)
-* [Ferramentas](#ferramentas)
-* [Observações](#observações)
-* [Agradecimentos](#agradecimentos)
-* [Contribuições](#contribuições)
-* [Licença](#licença)
+* [Descrição](#-descrição)
+* [Objetivo](#-objetivo)
+* [Conteúdo](#-conteúdo)
+* [Ferramentas](#-ferramentas)
+* [Observações](#-observações)
+* [Agradecimentos](#-agradecimentos)
+* [Contribuições](#-contribuições)
+* [Licença](#-licença)
 
 ---
 
