@@ -25,6 +25,7 @@
             <label for="divisor">Divisor</label>
             <input type="number" name="divisor" id="divisor" min="1" value="<?= $divisor?>">
             <input type="submit" value="Analisar">
+        </form>
     </main>
 
     <section>
@@ -46,4 +47,5 @@
         <p>&copy; 01/09/2025 - Exercício de Funções PHP</p>
     </footer>
 </body>
+
 </html>
