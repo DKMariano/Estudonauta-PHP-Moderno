@@ -17,9 +17,9 @@
         <h1>Informe um número</h1>
     </header>
     <main>
-        <form action="">
+        <form action="<?= htmlspecialchars($_SERVER['PHP_SELF'])?>" method="get">
             <label for="numero">Número</label>
-            <input type="number" name="numero" id="numero" value="" >
+            <input type="number" name="numero" id="numero" value="<?=$numero?>" >
             <input type="submit" value="Calcular Raízes">
         </form>
     </main>
@@ -37,4 +37,5 @@
         <p>&copy; 02/09/2025 - Exercício de Funções PHP</p>
     </footer>
 </body>
+
 </html>
