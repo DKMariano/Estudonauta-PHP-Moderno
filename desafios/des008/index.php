@@ -19,7 +19,7 @@
     <main>
         <form action="<?= htmlspecialchars($_SERVER['PHP_SELF'])?>" method="get">
             <label for="numero">Número</label>
-            <input type="number" name="numero" id="numero" value="<?=$numero?>" >
+            <input type="number" name="numero" id="numero" value="<?=$numero?>" step="0.01">
             <input type="submit" value="Calcular Raízes">
         </form>
     </main>
@@ -39,3 +39,4 @@
 </body>
 
 </html>
+
