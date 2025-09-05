@@ -20,8 +20,8 @@
         <h1>Médias Aritméticas</h1>
     </header>
 
-    <main>
-        <form action="">
+    <main>    
+            <form action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="get">
             <label for="valor1">1º Valor</label>
             <input type="number" name="valor1" id="valor1" value="<?=$valor1?>" step="0.01">
             <label for="peso1">1º Peso</label>
@@ -44,4 +44,5 @@
     </section>
     
 </body>
+
 </html>
