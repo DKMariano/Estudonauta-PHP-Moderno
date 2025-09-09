@@ -11,7 +11,7 @@
     <?php
         $precoAtual = $_GET['precoAtual'] ?? 0;
         $percentual = $_GET['percentual'] ?? 0;
-        $reajuste = $precoAtual * ($percentual / 100); 
+        $reajuste = $precoAtual * $percentual / 100; 
         $precoReajuste = $precoAtual + $reajuste;
         $mensagem = "O <strong>produto</strong> que custava <strong>R$".number_format($precoAtual, 2, ",", ".")."</strong>, com <strong>$percentual%</strong> de aumento vai passar a custar <strong>R$".number_format($precoReajuste, 2, ",", ".")."</strong> a partir de agora.";
 
@@ -36,8 +36,10 @@
     </section>
 
     <script>
+        mudaValor()
         function mudaValor() {
-            document.getElementById("percentualLabel").innerText = percentual.value;
+            const valor = document.getElementById("percentual").value;
+            document.getElementById("percentualLabel").innerText = valor;
         }
     </script>
 
