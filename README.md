@@ -33,22 +33,26 @@ Consolidar os fundamentos do **PHP Moderno** através da resolução prática de
 
 ## 📂 Conteúdo
 
-Até a presente data (28/08/2025), o repositório contém:
+Até a presente data (09/09/2025), o repositório contém:
 
-### 🔹 Exercícios (`/Exercícios`)
+### 🔹 Exercícios ([/Exercícios](./Exercícios))
 
-* **ex000 → ex004**: exercícios básicos com `index.php`
+* **ex000 → ex004**: exercícios básicos (`index.php`)
 * **ex005**: formulário com `cad.php`, `index.html` e `style.css`
-* **ex006**: exercício com `index.php` + `style.css`
-* **ex007**: exercício com `index.php` + `style.css`
+* **ex006**: `index.php` + `style.css`
+* **ex007**: `index.php` + `style.css`
+* **ex008**: `form.html`, `superglobais.php` e `style.css`
+* **ex009**: `index.html`
 
-### 🔹 Desafios (`/desafios`)
+### 🔹 Desafios ([/desafios](./desafios))
 
-* **des001**: inclui `index.html`, `resposta.php`, `style.css` e favicon
-* **des002**: `index.php`, `style.css` e favicon
-* **des003**: `index.html`, `conversao.php`, `style.css` e favicon
-* **des004**: `index.html`, `conversao.php`, `teste.php`, `style.css` e favicon
-* **des005**: `index.html`, `numero.php`, `style.css` e favicon
+* **des001**: `index.html`, `resposta.php`, `style.css` e `favicon.ico`
+* **des002**: `index.php`, `style.css` e `favicon.ico`
+* **des003**: `index.html`, `conversao.php`, `style.css` e `favicon.ico`
+* **des004**: `index.html`, `conversao.php`, `teste.php`, `style.css` e `favicon.ico`
+* **des005**: `index.html`, `numero.php`, `style.css` e `favicon.ico`
+* **des006 → des012**: `index.php`, `style.css` e `favicon.ico`
+* **des013**: `index.php`, `style.css`, `favicon.ico` e pasta `/imagens` (contendo cédulas: `1-real.jpg`, `2-reais.jpg`, `5-reais.jpg`, `10-reais.jpg`, `20-reais.jpg`, `50-reais.jpg`, `100-reais.jpg`)
 
 Além disso:
 
@@ -89,5 +93,4 @@ Sinta-se à vontade para contribuir com este repositório, seja corrigindo erros
 ## 📜 Licença
 
 Este projeto está sob a licença [MIT](./LICENSE).
-
 
